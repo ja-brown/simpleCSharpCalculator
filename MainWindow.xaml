@@ -1,0 +1,61 @@
+﻿<Window x:Class="cSharpSimpleCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cSharpSimpleCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="oneButton" Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="oneButton_Click">1</Button>
+        <Button x:Name="twoButton" Grid.Row="11" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="twoButton_Click">2</Button>
+        <Button x:Name="threeButton" Grid.Row="11" Grid.Column="7" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="threeButton_Click">3</Button>
+        <Button x:Name="sixButton" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="sixButton_Click">6</Button>
+        <Button x:Name="fiveButton" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="fiveButton_Click">5</Button>
+        <Button x:Name="fourButton" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="fourButton_Click">4</Button>
+        <Button x:Name="sevenButton" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="sevenButton_Click">7</Button>
+        <Button x:Name="eightButton" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="eightButton_Click">8</Button>
+        <Button x:Name="nineButton" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="nineButton_Click">9</Button>
+        <Button x:Name="zeroButton" Grid.Row="14" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="zeroButton_Click">0</Button>
+        <Button x:Name="equalsButton" Grid.Row="14" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="equalsButton_Click">=</Button>
+        <Button x:Name="additionButton" Grid.Row="12" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="additionButton_Click">+</Button>
+        <Button x:Name="subtractionButton" Grid.Row="10" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="subtractionButton_Click">-</Button>
+        <Button x:Name="multiplicationButton" Grid.Row="8" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="10" Click="multiplicationButton_Click">X</Button>
+        <Button x:Name="divisionButton" Grid.Row="6" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="divisionButton_Click">÷</Button>
+        <TextBox x:Name="calculatorValue" Grid.Row="0" Grid.ColumnSpan="12" Grid.RowSpan="3"/>
+        <Button x:Name="clearButton" Grid.Row="3" Grid.Column="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="clearButton_Click">C</Button>
+
+    </Grid>
+</Window>
